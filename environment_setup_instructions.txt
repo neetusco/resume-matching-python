@@ -1,0 +1,64 @@
+
+Resume Matching Project – Environment Setup Instructions
+========================================================
+
+These steps will help you set up the Python environment to run this project locally using Anaconda and Visual Studio Code (VS Code).
+
+--------------------------------------------------------
+1. Prerequisites
+--------------------------------------------------------
+- Anaconda installed: https://www.anaconda.com/download
+- Visual Studio Code installed: https://code.visualstudio.com/
+- Python version: 3.10 or 3.11
+
+--------------------------------------------------------
+2. Create the Conda Environment
+--------------------------------------------------------
+1. Open Anaconda Navigator
+2. Go to the Environments tab
+3. Click "Create"
+4. Name the environment: resume_env
+5. Choose Python version: 3.11
+6. Click "Create"
+
+--------------------------------------------------------
+3. Install Project Dependencies
+--------------------------------------------------------
+1. Select the resume_env environment
+2. In the package list, search and install:
+   - pandas
+   - spacy
+   - nltk
+   - requests
+   - beautifulsoup4
+
+3. Open the terminal (from Navigator or VS Code) and run:
+   pip install pymupdf pdfminer.six
+
+4. Optionally, install all packages in one step using:
+   pip install -r requirements.txt
+
+--------------------------------------------------------
+4. Launch VS Code from Anaconda
+--------------------------------------------------------
+1. Go to the Home tab in Navigator
+2. Find VS Code and click "Launch"
+   (This opens VS Code with the correct environment activated)
+
+--------------------------------------------------------
+5. Run the Project
+--------------------------------------------------------
+In VS Code terminal:
+    python main.py
+
+Or open individual scripts in the /scripts/ folder for testing.
+
+--------------------------------------------------------
+Notes
+--------------------------------------------------------
+- If you see issues with spacy, run:
+    python -m spacy download en_core_web_sm
+
+- For any missing packages, refer to requirements.txt or contact the project team.
+
+Date: [31-05-2025]

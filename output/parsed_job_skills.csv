@@ -1,0 +1,47 @@
+job_id,job_title,skill,weight,timestamp
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,communication,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,reporting,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,dashboarding,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,sql,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,data visualization,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,power bi,15,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,technical documentation,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,documentation,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,scripting,1,2025-06-25
+JOB101,Business Intelligence and Analytics Analyst - Intermediate,oracle,1,2025-06-25
+JOB102,Community Health Nurse,policy development,2,2025-06-25
+JOB102,Community Health Nurse,policy,5,2025-06-25
+JOB102,Community Health Nurse,public health,2,2025-06-25
+JOB102,Community Health Nurse,health promotion,1,2025-06-25
+JOB102,Community Health Nurse,nursing,1,2025-06-25
+JOB102,Community Health Nurse,research,1,2025-06-25
+JOB102,Community Health Nurse,documentation,1,2025-06-25
+JOB102,Community Health Nurse,public health promotion,1,2025-06-25
+JOB102,Community Health Nurse,health canada,1,2025-06-25
+JOB102,Community Health Nurse,decision-making,1,2025-06-25
+JOB102,Community Health Nurse,compliance,4,2025-06-25
+JOB102,Community Health Nurse,spectrometry,1,2025-06-25
+JOB102,Community Health Nurse,regulated products,1,2025-06-25
+JOB102,Community Health Nurse,pcr,1,2025-06-25
+JOB102,Community Health Nurse,chronic disease management,1,2025-06-25
+JOB102,Community Health Nurse,chromatography,1,2025-06-25
+JOB102,Community Health Nurse,surveillance,1,2025-06-25
+JOB102,Community Health Nurse,regulatory affairs,1,2025-06-25
+JOB102,Community Health Nurse,regulatory compliance,1,2025-06-25
+JOB102,Community Health Nurse,inspections,1,2025-06-25
+JOB102,Community Health Nurse,patient education,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",communication,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",data analysis,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",reporting,3,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",problem-solving,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",monitoring tools,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",report writing,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",analytical,3,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",data visualization,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",research,2,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",python,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",strategic planning,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",statistics,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",collaboration,1,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",analysis,3,2025-06-25
+JOB103,"Senior Analyst, Data Stewardship and Quality",data governance,1,2025-06-25

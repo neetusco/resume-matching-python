@@ -1,0 +1,34 @@
+2025-06-19 10:53:41,368 - ERROR - Error saving to CSV: [Errno 13] Permission denied: 'output/parsed_job_skills.csv'
+2025-06-19 10:53:41,593 - ERROR - Error saving to CSV: [Errno 13] Permission denied: 'output/parsed_job_skills.csv'
+2025-06-19 10:53:41,639 - ERROR - Error saving to CSV: [Errno 13] Permission denied: 'output/parsed_job_skills.csv'
+2025-06-25 20:48:41,141 - ERROR - Error in trigger_file_error: [Errno 2] No such file or directory: 'nonexistent_file.csv'
+Traceback (most recent call last):
+  File "c:\Users\Neeti\OneDrive - Algonquin College\CapstoneProject-ResumeScraping\Neetika\project_root\utils.py", line 19, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Neeti\OneDrive - Algonquin College\CapstoneProject-ResumeScraping\Neetika\project_root\Scripts\resume_parser.py", line 25, in trigger_file_error
+    with open("nonexistent_file.csv", "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.csv'
+2025-06-25 21:11:53,492 - ERROR - Error in match_all_resumes: [Errno 13] Permission denied: 'output/resume_match_results.csv'
+Traceback (most recent call last):
+  File "c:\Users\Neeti\OneDrive - Algonquin College\CapstoneProject-ResumeScraping\Neetika\project_root\utils.py", line 19, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Neeti\OneDrive - Algonquin College\CapstoneProject-ResumeScraping\Neetika\project_root\Scripts\matcher.py", line 80, in match_all_resumes
+    df.to_csv(MATCH_RESULTS_FILE, index=False)
+  File "C:\Users\Neeti\anaconda3\envs\resume_env\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Neeti\anaconda3\envs\resume_env\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Neeti\anaconda3\envs\resume_env\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Neeti\anaconda3\envs\resume_env\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Neeti\anaconda3\envs\resume_env\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'output/resume_match_results.csv'
