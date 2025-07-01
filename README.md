@@ -1,4 +1,4 @@
-# 📄 Resume Matching System (Capstone Project)
+# Resume Matching System (Capstone Project)
 
 This Python-based project automates the process of parsing resumes and matching them to job descriptions using rule-based scoring. Built as part of a capstone project in collaboration with a 4-member team.
 
